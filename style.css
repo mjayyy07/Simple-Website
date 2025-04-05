@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -20,9 +21,26 @@ button {
     background: #0073e6;
     color: white;
     font-size: 16px;
+    transition: background 0.3s;
 }
 
-.dark-mode {
+button:hover {
+    background: #005bb5;
+}
+
+/* Dark Mode */
+body.dark-mode {
     background-color: #333;
     color: white;
+}
+
+body.dark-mode header {
+    background: #005bb5; /
+}
+
+body.dark-mode button {
+    background: #005bb5; }
+
+body.dark-mode button:hover {
+    background: #003f8a; /
 }
